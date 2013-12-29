@@ -6,6 +6,15 @@
 		<servlet-name>DoAjaxServlet</servlet-name>
 		<servlet-class>com.xgbxm.model.DoAjaxServlet</servlet-class>
 	</servlet>
+	<servlet>
+		<servlet-name>DoAjax</servlet-name>
+		<servlet-class>com.xgbxm.model.DoAjax</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DoAjax</servlet-name>
+		<url-pattern>/ajax.do</url-pattern>
+	</servlet-mapping>
+
 	<servlet-mapping>
 		<servlet-name>DoAjaxServlet</servlet-name>
 		<url-pattern>/validate.do</url-pattern>
